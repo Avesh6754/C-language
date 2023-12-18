@@ -13,7 +13,7 @@ main()
 	while(n>0)
 	{
 
-        a=n;
+                a=n;
 		n/=10;
 		
 		
