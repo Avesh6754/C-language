@@ -28,23 +28,26 @@ void user()
 	printf("entre the value of b : ");
 	scanf("%d",&b);
 }
-int cal()
+
+main()
+
 {
-	
-	char op;
-	printf("enter your choice (+,-,*,/) :");
-	scanf(" %c",&op);
-	
-	if(op=='q')
+	while(1)
+  {
+     char op;
+     start:
+	 printf("enter your choice (+,-,*,/) :");
+	 scanf(" %c",&op);
+	 
+    
+	if(op=='0')
 	{
-		printf("you quit calc");
+		break;
 	}
 	else
 	{
-
-	
-	user();
-	
+		
+      user();
 	switch(op)
 	{
 		case'+':sum();
@@ -58,17 +61,8 @@ int cal()
 		default:printf("Error");
 		break;
 	}
-	}
+
   printf("\n");
-
-}
-
-
-main()
-
-{
-   while(1)
-   {
-   	 cal();
-   }
+	}
+  }
 }
