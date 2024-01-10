@@ -5,7 +5,7 @@ void change(int *ptr)
 	printf("enter the value of n :");
 	scanf("%d",&n);
 	
-	*ptr=*ptr+n;
+	*ptr=n;
 }
 main()
 {
