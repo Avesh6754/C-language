@@ -9,7 +9,7 @@ main()
 	
 	int length=sizeof(a)/sizeof(a[0]);
 	
-	printf("%d",length);
+	printf("%d ",length);
 
 	
 	
