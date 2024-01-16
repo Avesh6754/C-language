@@ -13,14 +13,14 @@ main()
 		scanf("%d",&a[i]);
 	}
 	
-	int max=a[0];
+	int mini=a[0];
 	
 	for(i=0; i<n; i++)
 	{
-		if(max < a[i])
+		if(mini > a[i])
 		{
-			max = a[i];
+			mini = a[i];
 		}
 	}
-	printf(" max: %d",max);
+	printf(" mini: %d",mini);
 }
