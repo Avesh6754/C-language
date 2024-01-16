@@ -11,8 +11,4 @@ main()
 	
 	printf("%d ",length);
 
-	
-	
-	
-	
 }
