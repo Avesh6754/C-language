@@ -37,5 +37,4 @@ main()
     printf(" sum of %d k is %d",i+1,sum);
   }
   
-  return 0;
 }
