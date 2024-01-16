@@ -3,7 +3,7 @@
 
 struct student
 {
-	int rollno,chemmarks, mathsmarks, phymarks;
+	int rollno,chem, maths, phy;
 	char name[100];
 };
 main()
@@ -23,24 +23,24 @@ main()
 		printf("enter the roll no. : \n");
 		scanf("%d",&s[i].rollno);
 		
-		printf("enter the chem_marks : \n");
-		scanf("%d",&s[i].chemmarks);
+		printf("enter the chem marks : \n");
+		scanf("%d",&s[i].chem);
 		
-		printf("enter the maths_marks : \n");
-		scanf("%d",&s[i].mathsmarks);
+		printf("enter the maths marks : \n");
+		scanf("%d",&s[i].maths);
 		
-		printf("enter the phy_marks : \n");
-		scanf("%d",&s[i].phymarks);
+		printf("enter the phy marks : \n");
+		scanf("%d",&s[i].phy);
 	}
  	for(i=0; i<5; i++)
  	{	printf("\n\nThe Student %d result is below\n",i+1);
  		printf("%s(%d)\n",s[i].name,s[i].rollno);
- 		printf("Chemistry   : %d\n",s[i].chemmarks);
- 		printf("Mathematics : %d\n",s[i].mathsmarks);
- 		printf("Physics     : %d\n",s[i].phymarks);
- 		total = s[i].chemmarks + s[i].mathsmarks + s[i].phymarks;
+ 		printf("Chemistry   : %d\n",s[i].chem);
+ 		printf("Mathematics : %d\n",s[i].maths);
+ 		printf("Physics     : %d\n",s[i].phy);
+ 		total = s[i].chem + s[i].maths + s[i].phy;
  		printf("Total : %d/300\n",total);
  		result = (total*100.0)/300;
- 		printf("Percent : %.2f%%",result);
+ 		printf("Percentage : %.2f%%",result);
 	} 
 }
