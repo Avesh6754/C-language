@@ -22,7 +22,5 @@ main()
 		printf("%d ",a[i]);
 	}
     
-		
-		
 	
 }
