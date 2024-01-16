@@ -22,12 +22,5 @@ main()
 	 int j;
 	   j=sum/n;
 	   printf("%d",j);
-	    
-	
-	
 
-	
-	
-	
-	
 }
