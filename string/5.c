@@ -12,6 +12,4 @@ main()
     i++;
   }
   printf(" length of string  : %d",i-1);
-  
-
 }
