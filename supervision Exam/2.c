@@ -7,11 +7,14 @@ struct student
 };
 main()
 {
-	struct student s[5];
+	int n;
+	printf("enter the size of n : ");
+	scanf("%d",&n);
+	struct student s[n];
 	char name[100];
  	int i,total;
  	float result;
- 	for(i=0; i<5; i++)
+ 	for(i=0; i<n; i++)
  	{
 	    printf("enter the details for student : %d\n",i+1);
 		printf("enter the student name :");
@@ -25,7 +28,7 @@ main()
 		printf("enter the student phy marks:");
 		scanf("%d",&s[i].phy);
 	}
- 	for(i=0; i<5; i++)
+ 	for(i=0; i<n; i++)
  	{	printf("\nstudent result are below\n",i+1);
  		printf("%s(%d)\n",s[i].name,s[i].roll_no);
  		printf("Mathematics: %d\n",s[i].maths);
