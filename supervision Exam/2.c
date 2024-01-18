@@ -11,7 +11,7 @@ main()
 	printf("enter the size of n : ");
 	scanf("%d",&n);
 	struct student s[n];
-	char name[100];
+	char name[100],c='%';
  	int i,total;
  	float result;
  	for(i=0; i<n; i++)
@@ -37,6 +37,6 @@ main()
  		total=s[i].chem+s[i].maths+s[i].phy;
  		printf("Total: %d/300\n",total);
  		result=(total*100.0)/300;
- 		printf("Percentage: %.2f",result);
+ 		printf("Percentage: %.2f%c",result,c);
 	} 
 }
