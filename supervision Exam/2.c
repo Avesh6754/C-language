@@ -34,6 +34,6 @@ main()
  		total=s[i].chem+s[i].maths+s[i].phy;
  		printf("Total: %d/300\n",total);
  		result=(total*100.0)/300;
- 		printf("Percentage: %.2f%%",result);
+ 		printf("Percentage: %.2f",result);
 	} 
 }
