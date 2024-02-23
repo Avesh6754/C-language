@@ -3,8 +3,6 @@
 main()
 
 {
-		//WAP to Find max< from given 4 no< using nested
-//operator
 	int a,b,c,d;
 	
 	printf("enter the value of a :");
