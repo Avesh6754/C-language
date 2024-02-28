@@ -33,7 +33,7 @@ main()
 	printf("name : %s\n",name);
 	printf("Age : %d\n",age);
 	printf("Present-year of college : %d\n",year);
-    printf("Address : %s\n",address);
+   	 printf("Address : %s\n",address);
 	printf("course : %s\n",course);
 	printf("Soft skill : %s\n",soft);
 	printf("Programming skill : %s\n",program);
